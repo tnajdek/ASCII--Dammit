@@ -211,19 +211,18 @@ def demoronise(t):
 
 if __name__ == '__main__':
     french = '\x93Sacr\xe9 bleu!\x93'
-    print "First we mangle some French."
+    print "\nFirst we mangle some French."
     print asciiDammit(french)
     print htmlDammit(french)
 
-    print
-    print "And now we fix the MS-quotes but leave the French alone."
+    print "\nAnd now we fix the MS-quotes but leave the French alone."
     print demoronise(french)
     print htmlDammit(french, 1)
 
-    print "Let's try some french in unicode"
+    print "\nLet's try some french in unicode"
     frenchu = u'sacré bleu'
     print asciiDammit(frenchu)
 
     dejavu = u'Déjà Vu'
-    print "It's usually a glitch in the Matrix. It happens when they change something."
+    print "\nIt's usually a glitch in the Matrix. It happens when they change something."
     print asciiDammit(dejavu)
