@@ -1,5 +1,7 @@
 #ASCII, Dammit
 
+All credit goes to Leonard Richardson. I've just put this thing on github.
+
 Stupid library to turn MS chars (like smart quotes) and ISO-Latin
 chars into ASCII, dammit. Will do plain text approximations, or more
 accurate HTML representations. Can also be jiggered to just fix the
